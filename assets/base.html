@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Dash App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css?v=2">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <h1>My Dash App</h1>
+        </div>
+        <nav class="navbar">
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item">Dashboard</a>
+            <a href="#" class="nav-item">Settings</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="main-section">
+            <div id="app-content" class="app-container">
+                {%app_entry%}
+            </div>
+        </section>
+        {%config%}
+        {%scripts%}
+        {%renderer%}
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2024 My Dash App. All rights reserved.</p>
+    </footer>
+</body>
+</html>

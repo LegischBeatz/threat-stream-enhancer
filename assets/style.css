@@ -1,0 +1,108 @@
+/* Apply Arial globally */
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* General styles */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #333;
+}
+
+/* Header styles */
+.main-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #007BFF;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    color: #007BFF;
+}
+
+/* Main content styles */
+.content {
+    padding: 20px;
+}
+
+.main-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+.main-footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.main-footer p {
+    margin: 0;
+    color: #555;
+}
+
+/* Button styles */
+button {
+    font-family: Arial, sans-serif;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input and Dropdown styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input, .Select-control {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* News content styles */
+#news-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
